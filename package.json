@@ -1,0 +1,35 @@
+{
+  "name": "clean-env",
+  "version": "1.0.0",
+  "description": "Ensure the correct env variables are being used for production builds",
+  "main": "./bin/clean-env.js",
+  "bin": {
+    "clean-env": "./bin/clean-env.js"
+  },
+  "scripts": {
+    "linting": "eslint bin lib --ext .js",
+    "linting:fix": "npm run linting -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbbt/clean-env.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbbt/clean-env/issues"
+  },
+  "homepage": "https://github.com/alexbbt/clean-env#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "dependencies": {
+    "deepmerge": "^3.2.0",
+    "dotenv": "^7.0.0",
+    "import-fresh": "^3.0.0",
+    "js-yaml": "^3.13.0",
+    "strip-json-comments": "^2.0.1"
+  }
+}

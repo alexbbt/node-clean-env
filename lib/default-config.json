@@ -1,0 +1,12 @@
+{
+    "required": [],
+    "excluded": [],
+    "dotenv": ".env",
+    "translations": {
+        "missingRequired": "Clean ENV did not find the following required ENV variables.",
+        "foundExcluded": "Clean ENV has found the following excluded ENV variables in the ENV.",
+        "errorStatement": "You ENV is not in a clean state.",
+        "errorQuestion": "Are you sure you want to continue with the build? (y)",
+        "yes": "y"
+    }
+}
