@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/alexbbt/clean-env#readme",
   "devDependencies": {
-    "eslint": "^5.15.3",
+    "eslint": "^9.39.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
   },
@@ -29,7 +29,7 @@
     "deepmerge": "^3.2.0",
     "dotenv": "^7.0.0",
     "import-fresh": "^3.0.0",
-    "js-yaml": "^3.13.0",
+    "js-yaml": "^4.1.1",
     "strip-json-comments": "^2.0.1"
   }
 }
